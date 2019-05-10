@@ -127,5 +127,4 @@ Usage:
 	ssr ssr://base64... : import ssr:// link to config.json
 	"""
 		sys.exit()
-
 	main()
