@@ -1,10 +1,32 @@
 # 使用说明
 
+安装环境
 ```
-python ssr.py config						编辑ssr配置
-python ssr.py install						安装shadowsocksr客户端
-python ssr.py uninstall					        卸载shadowsocksr客户端
-python ssr.py start						启动shadowsocks服务
-python ssr.py stop						关闭shadowsocks服务
-python ssr.py ssr://base64...			                导入ssr://地址
+ssr_global.py install
 ```
+
+导入ssr链接
+```
+ssr_global.py ssr://base64...
+```
+
+手动配置ssr
+```
+ssr_global.py config
+```
+
+启动全局
+```
+ssr_global.py start
+```
+
+关闭全局
+```
+ssr_global.py stop
+```
+
+
+卸载
+ ```
+ ssr_global.py uninstall
+ ```
